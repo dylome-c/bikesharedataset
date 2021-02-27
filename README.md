@@ -1,29 +1,42 @@
-# bikesharedataset
+This project focuses on pandas library usage and simple statistics methods to perform to analyse the sharing bike data from three major U.S. cities - Chicago, Washington, and New York City. 
+Running the program:
+You can input 'ipython bikeshare.py' on your terminal to run this program. I use terminal on mac book. 
+Program Details:
+The program will first take input  from user for the city (e.g. Chicago), month (Jan- Jun) , day (Mon-Sun) that they will like to view. 
+Then the program will ask if the user would like to view the actual dataset by first displaying the first 5 rows and then 5 more rows by inputting yes. 
+After that, the following analysis will be shown. 
+•	Most popular month
+•	Most popular day
+•	Most popular hour
+•	Most popular start station
+•	Most popular end station
+•	Most popular combination of start and end stations
+•	Total trip duration
+•	Average trip duration
+•	Types of users by number
+•	Types of users by gender (if available)
+•	The oldest user (if available)
+•	The youngest user (if available)
+•	The most common birth year amongst users (if available)
+Finally, will be asked if they would like to programme to be ran again. 
+Requirements:
+•	Language: Python 3.6 or above
+•	Libraries: pandas
+•	Project Data:
+•	chicago.csv, new_york_city.csv, washington.csv 
+Dataset containing all bikeshare information provided by Udacity. Please note that Washington.csv does not have information about gender and birth years. 
 
-Procedures to Using this data set analysis:
-
-Last Updated: 27/02/2021
-
-1. Install Python
-i. Search on Google and install the latest version of Python 3.x.
-
-2. Install Pip3
-i. Go to spotlight, search for terminal
-ii. type: sudo easy_install pip
-iii. type in password and wait for installation
-
-3. Install xlrd, xlwt, and openpyxl
-i. Go to terminal again
-ii. type: pip3 install xlrd --user
-iii. type: pip3 install xlwt --user
-iv. type: pip3 install openpyxl --user
-
-4. Prepare files
-i. Download Archive.zip to get all data
-ii. Extract all file from zip folder
-iii. Store bikeshare.py and all file from the same folder
-
-5. Open python and run
-
-OR
-5. Open terminal from your own device and run the programme
+Built with:
+•	Python 3.8.5 - The language used to develop this.
+•	pandas - One of the libraries used for this.
+•	numpy - One of the libraries used for this.
+•	time - One of the libraries used for this.
+Acknowledgements:
+•	Udacity -resources and tutorial Udacity's Data Analyst Nanodegree program 
+•	Reference links
+•	https://github.com/stephanderton/Explore-US-Bikeshare-Data/blob/master/bikeshare_2.py
+•	https://www.youtube.com/watch?v=egdfGJaBIh0
+•	https://www.youtube.com/watch?v=yEST0vy2UBE
+•	https://www.youtube.com/watch?v=sugvnHA7ElY
+•	https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html
+![Uploading image.png…]()
