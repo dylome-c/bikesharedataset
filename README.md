@@ -1,9 +1,13 @@
 This project focuses on pandas library usage and simple statistics methods to perform to analyse the sharing bike data from three major U.S. cities - Chicago, Washington, and New York City. 
+
 Running the program:
 You can input 'ipython bikeshare.py' on your terminal to run this program. I use terminal on mac book. 
+
 Program Details:
 The program will first take input  from user for the city (e.g. Chicago), month (Jan- Jun) , day (Mon-Sun) that they will like to view. 
+
 Then the program will ask if the user would like to view the actual dataset by first displaying the first 5 rows and then 5 more rows by inputting yes. 
+
 After that, the following analysis will be shown. 
 •	Most popular month
 •	Most popular day
@@ -18,8 +22,11 @@ After that, the following analysis will be shown.
 •	The oldest user (if available)
 •	The youngest user (if available)
 •	The most common birth year amongst users (if available)
+
 Finally, will be asked if they would like to programme to be ran again. 
+
 Requirements:
+
 •	Language: Python 3.6 or above
 •	Libraries: pandas
 •	Project Data:
@@ -31,6 +38,7 @@ Built with:
 •	pandas - One of the libraries used for this.
 •	numpy - One of the libraries used for this.
 •	time - One of the libraries used for this.
+
 Acknowledgements:
 •	Udacity -resources and tutorial Udacity's Data Analyst Nanodegree program 
 •	Reference links
